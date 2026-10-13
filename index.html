@@ -29,9 +29,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..100,400..900&display=swap" rel="stylesheet">
 <style>
-/* page shell: the old Squarespace page around the block, nothing else */
+/* page shell: recreates the bits of the old Squarespace theme the design was tuned on
+   (base text size, tight letter-spacing, paragraph line-height). Keep these. */
 html,body{margin:0;padding:0;background:#000}
-body{overflow-x:hidden}
+body{overflow-x:hidden;font-size:17.6px;letter-spacing:-.02em}
+.pemc h1,.pemc h2,.pemc h3{letter-spacing:-.02em}
+.pemc h1{font-size:64px}
+.pemc p{line-height:1.3em}
+.pemc .btn,.pemc select{line-height:normal}
 </style>
 </head>
 <body>
