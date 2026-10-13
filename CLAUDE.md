@@ -74,13 +74,15 @@ Rules:
 
 ## How to preview
 
-- Fastest: describe the change, make it, publish, and check the live site about a minute later (it is one page, and undo is one commit).
+- Fastest: describe the change, make it, publish, and check the live site a minute or two later (it is one page, and undo is one commit).
 - Local preview, if you have a shell: from the repo root run `python3 -m http.server 8000` and open http://localhost:8000. (The form works from localhost too, but see the testing rule above.)
 - Bigger changes: work on a branch, open a pull request, and only merge to `main` when Eron says it looks right.
 
 ## How to publish
 
-**Commit to `main` = live in about a minute.** GitHub Pages rebuilds automatically after every push to `main`. You can watch it under the repo's Actions tab ("pages build and deployment"). Hard-refresh the browser (or open in a private window) if the old version still shows.
+**Commit to `main` = live in about a minute** (sometimes up to 3-5 minutes). GitHub Pages rebuilds automatically after every push to `main`. You can watch it under the repo's Actions tab ("pages build and deployment"). Hard-refresh the browser (or open in a private window) if the old version still shows.
+
+If you are Claude Code on the web (claude.ai/code), your changes go to a new branch. Open a pull request into `main` with a plain-English title, and tell Eron in one or two sentences what changed and that it goes live when he taps **Merge pull request** on GitHub. If Eron asks you to merge it for him, do so (squash or merge commit, never force).
 
 Write commit messages in plain English, e.g. `Update hero paragraph`, `Add wedding photo to about section`.
 

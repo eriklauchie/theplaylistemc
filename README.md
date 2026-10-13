@@ -5,7 +5,7 @@ Website for The Playlist Entertainment Music Collective, Eron Trent's live music
 **Live site:** https://theplaylistemc.com
 
 - One page: `index.html` (plus `404.html` and images in `assets/`). No build step.
-- Hosted on GitHub Pages from the `main` branch. Anything committed to `main` is live in about a minute.
+- Hosted on GitHub Pages from the `main` branch. Anything committed to `main` is live in a minute or two.
 - The booking form sends to hello@theplaylistemc.com through FormSubmit. Don't change that address.
 - Don't touch `CNAME`. It connects the domain.
 
